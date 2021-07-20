@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Replyer",
+    "description": "Example schema to represent a Replyer as JSON.",
+    "type": "object",
+    "properties": {
+        "username": {
+            "description": "Technical user name for the Replyer",
+            "type": "string",
+            "pattern": "^[a-z]\\.[a-z]+$"
+        },
+        "forename": {
+            "description": "Forname of the Replyer",
+            "type": "string"
+        },
+        "surname": {
+            "description": "Surname of the Replyer",
+            "type": "string"
+        },
+        "location": {
+            "description": "City of the next office of the Replyer",
+            "type": "string"
+        }
+    },
+    "required": [
+        "username",
+        "forename",
+        "surname",
+        "location"
+    ]
+}
