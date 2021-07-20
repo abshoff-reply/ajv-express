@@ -33,7 +33,7 @@ curl \
     http://localhost:8000/welcome
 ```
 
-## Almost correct request
+## Correct request
 
 ```bash
 curl \
