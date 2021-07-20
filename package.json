@@ -1,13 +1,17 @@
 {
   "name": "ajv-express",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository demonstrates how to use a JSON Schema both in an OpenAPI 3.1.0 document and inside of a Node.JS backend.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abshoff-reply/ajv-express.git"
+  },
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "lint": "eslint ."  },
   "author": "",
-  "license": "ISC",
+  "license": "Unlicense",
   "dependencies": {
     "ajv": "^8.6.2",
     "body-parser": "^1.19.0",
